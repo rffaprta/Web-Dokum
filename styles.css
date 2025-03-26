@@ -37,7 +37,8 @@ img {
 
 .foto {
   width: 100px;
-  border-radius: 20px;
+  height: auto;
+  border-radius: 100%;
 }
 
 #navbar {
