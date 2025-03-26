@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Reffa</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="navbar">
+      <a href="#container">Contact</a>
+      <a href="#Introduction">Web Material</a>
+      <a href="#welcome-section">About Me</a>
+    </div>
+
+    <section id="welcome-section">
+      <h1>Hey I am Reffa</h1>
+      <p>a web developer</p>
+    </section>
+
+    <main>
+      <h1 id="Introduction">Web Materials</h1>
+      <section class="main-section">
+        <h3>HTML</h3>
+        <p>
+          HTML (Hyper Text Markup Language) adalah bahasa pemrograman yang
+          digunakan untuk membuat struktur dasar halaman web. HTML berfungsi
+          untuk menandai elemen-elemen berbeda dalam sebuah halaman web.
+        </p>
+        <ul>
+          <li>
+            <p>
+              HTML dikembangkan oleh Tim Berners-Lee, seorang ilmuwan dari
+              European Organization for Nuclear Research (CERN) pada tahun 1989
+            </p>
+          </li>
+          <li>
+            <p>
+              HTML merupakan standar yang digunakan secara luas untuk
+              menampilkan halaman web
+            </p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <p>
+              HTML saat ini merupakan standar Internet yang didefinisikan dan
+              dikendalikan penggunaannya oleh World Wide Web Consortium (W3C)
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="css">
+        <h3>CSS</h3>
+        <p>
+          Kepanjangan CSS adalah Cascading Style Sheet. CSS digunakan untuk
+          memberikan warna, style, ukuran, dan juga digunakan untuk mengatur
+          posisi pada elemen-elemen di halaman website, sehingga membuat halaman
+          website tampak lebih menarik saat dilihat.
+        </p>
+        <p>adapun jenis-jenis css:</p>
+        <div>
+          <ul>
+            <li>
+              <code
+                >INLINE CSS => h1 style="font-size: 30px; color: #0c4ff5"> Hello
+                World!
+              </code>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <code>INTERNAL CSS => style body{color: blue}; style</code>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <code
+                >EXTERNAL CSS => menggunakan link rel="stylesheet" href="arahkan
+                ke file css"</code
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="main-section" id="css">
+        <h3>Javascript</h3>
+        <p>
+          JavaScript adalah bahasa pemrograman yang digunakan untuk membuat
+          halaman web interaktif. JavaScript merupakan bagian penting dari
+          teknologi web modern, bersama dengan HTML dan CSS.
+        </p>
+        <p>
+          Untuk menuliskan kata "Hello world" pada JavaScript code caranya kaya
+          gini:
+        </p>
+        <div>
+          <ul>
+            <li>
+              <code
+                >function greetMe(yourName) { alert("Hello " + yourName); }
+              </code>
+              <code>greetMe("World");</code>
+            </li>
+          </ul>
+          <p>Variabel:</p>
+          <ul>
+            <li>
+              <code>let y = 13. / var x = 42.</code>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="main-section" id="php">
+        <h3>PHP</h3>
+        <p>
+          singkatan dari "Hypertext Preprocessor", sebuah bahasa pemrograman
+          script server-side yang populer digunakan untuk membangun aplikasi web
+          dinamis dan interaktif.
+        </p>
+        <p>
+          PHP digunakan untuk memproses data, mengakses database, dan
+          menghasilkan konten dinamis dalam halaman web.
+        </p>
+        <div>
+          <p>Deklarasi Variabel:</p>
+          <ul>
+            <li>
+              <code
+                >$x = 5; <br />
+                $y = "John";</code
+              >
+              <br />
+            </li>
+          </ul>
+          <p>Untuk Menampilkan Variabel:</p>
+          <ul>
+            <li><code>echo "$x";</code></li>
+          </ul>
+          <p>Tipe Data:</p>
+          <ul>
+            <li>String</li>
+            <br />
+            <code
+              >$x = "John"; <br />
+              echo "Hello $x";</code
+            >
+            <br />
+            <br />
+            <li>Integer</li>
+            <br />
+            <code
+              >$a = 1234; <br />
+              echo "$a";</code
+            >
+            <br />
+            <br />
+            <li>Float (floating point numbers - also called double)</li>
+            <br />
+            <code
+              >$a = -3.578; <br />
+              echo "$a";</code
+            >
+            <br />
+            <br />
+            <li>Boolean</li>
+            <br />
+            <code
+              >$benar = true; <br />
+              $salah = false;</code
+            >
+            <br />
+            <br />
+            <li>Array</li>
+            <br />
+            <code
+              >$cars = array("Volvo", "BMW", "Toyota"); <br />
+              var_dump($cars);</code
+            >
+          </ul>
+        </div>
+      </section>
+
+      <section class="main-section" id="program">
+        <h3>Mengatur Alur Program</h3>
+        <p>
+          Blok pemilihan yang terdapat pada suatu program berguna untuk
+          menentukan statement mana yang akan dieksekusi didasarkan pada
+          kondisi-kondisi tertentu yang didefinisikan jika kondisi terpenuhi
+          (bernilai true) maka statemen yang terdapat di dalam blok bersangkutan
+          akan di eksekusi. sebaliknya jika tidak terpenuhi (bernilai false)
+          maka statement tersebut akan diabaikan oleh program didalam PHP
+          pemilihan statemen dapat dilakukan dengan menggunakan statemen if dan
+          switch
+        </p>
+        <h3>1. If Else Statement</h3>
+        <ul>
+          <li>Statemen if memiliki bentuk umum penggunaan seperti berikut:</li>
+          <br />
+          <code>if (kondisi) statement</code>
+          <br />
+          <br />
+          <li>
+            Jika statemen yang akan dieksekusi berjumlah lebih dari satu, maka
+            bentuk umumnya menjadi :
+          </li>
+          <br />
+          <code>if (kondisi) { Statemen1; Statemen2; ..... }</code>
+          <br />
+          <br />
+          <li>
+            Statemen if juga dapat digunakan untuk memeriksa kondisi yang
+            jumlahnya lebih dari dua
+          </li>
+          <br />
+          <li>caranya dengan menggunakan klausa elseif</li>
+          <br />
+          <code
+            >if (kondisi1) { statemen1; }elseif (kondisi2) { statemen2;
+            }elseif(kondisi3){ statemen3; }else{ statemen4; }</code
+          >
+          <br />
+          <br />
+        </ul>
+        <h3>2. Switch Case</h3>
+        <ul>
+          <li>
+            Statemen switch biasanya digunakan untuk menggantikan struktur if
+            yang memiliki terlalu banyak kondisi
+          </li>
+          <br />
+          <li>bentuk umum penggunaan statement switch sbb :</li>
+          <br />
+          <code
+            >switch (ekpresi) { case nilaikonstanta1: statemen1;break; case
+            nilai konstanta2: statemen2;break; .... default: statemen
+            alternatif; }</code
+          >
+        </ul>
+      </section>
+
+      <section class="main-section" id="looping">
+        <h3>Looping</h3>
+        <p>
+          Dalam mengembangkan aplikasi web, sering dijumpai kasus-kasus yang
+          menuntuk kita untuk melakukan pengulangan terhadap statemen-statemen
+          tertentu.
+        </p>
+        <p>
+          PHP menyediakan beberapa bentuk blok pengulangan, yaitu
+          while,do-while, for, foreach
+        </p>
+        <h3>1. While Statement</h3>
+        <ul>
+          <li>Statemen while melakukan pemeriksaan kondisi di awal blok</li>
+          <br />
+          <li>
+            dengan demikian jika ekpresi bernilai false, maka badan pengulangan
+            akan diabaikan
+          </li>
+          <br />
+          <code
+            >while(ekpresi) <br />
+            statemen; <br />
+            //atau dapat juga ditulis <br />
+            while(ekspresi){
+            <br />statemen; }></code
+          >
+        </ul>
+        <h3>2. Do While</h3>
+        <ul>
+          <li>
+            pada struktur pengulangan do-while kondisi akan akan diperiksa
+            dibagian akhir
+          </li>
+          <br />
+          <li>
+            hal ini mengakibatkan statemen dalam badan pengulangan minimal akan
+            dieksekusi satu kali, meskipun kondisi yang didefinisikan ternyata
+            tidak terpenuhi
+          </li>
+          <br />
+          <code>
+            do statemen; <br />
+            while(ekpresi); <br />
+            //atau dapat ditulis <br />
+            do{ <br />
+            statemen; <br />
+            }while(ekpresi);</code
+          >
+        </ul>
+        <h3>3.For Loop</h3>
+        <ul>
+          <li>
+            statemen for dapat dikatakan sebagai bentuk pengulangan paling
+            sederhana
+          </li>
+          <br />
+          <code
+            >for (inisialisasi;ekspresi;increment++/--decrement) <br />
+            statemen; <br />
+            //atau dapat ditulis <br />
+            for(inisialisasi; ekspresi;increment/decrement) <br />
+            { statemen; }</code
+          >
+        </ul>
+        <h3>4. Foreach</h3>
+        <ul>
+          <li>
+            stateman foreach digunakan untuk melakukan pengulangan pada saat
+            mengeksekusi elemen-elemen dalam suatu array
+          </li>
+          <br />
+          <code
+            >$pegawai = array(‘manajer’ => ‘cecep’, <br />
+            ‘dirut’ => ‘asep’, <br />
+            ‘umum’ => ‘dudu’ <br />
+            ‘tenisi’ =>’jaja’); <br />
+            foreach($pegawai as $nama){ br echo”hallo,$nama”; }</code
+          >
+        </ul>
+      </section>
+
+      <section class="main-section" id="array">
+        <h3>Array</h3>
+        <p>array adalah suatu koleksi nilai yang saling berkaitan</p>
+        <p>
+          array fungsinya sama seperti variabel hanya saja nilai yang ditampung
+          di dalamnya bisa lebih banyak tidak hanya satu
+        </p>
+        <p>
+          array tersusun atas elemen-elemen, setiap elemen memiliki kunci (key)
+          dan nilai (value)
+        </p>
+        <ul>
+          <li><img src="indeks.png" alt="arr indeks" class="array" /></li>
+          <br />
+          <code>$suku = array(“Sunda”,”Jawa”,”Batak”,”Minang”);</code>
+          <br />
+          <br />
+          <li><img src="aso.png" alt="aso" class="array" /></li>
+          <br />
+          <code
+            >$pegawai = array(“Dirut” =>”cecep”, <br />
+            “Manager” =>”asep”, <br />
+            “Marketing”=>”Jaja”);</code
+          >
+        </ul>
+      </section>
+    </main>
+
+    <div class="container">
+      <h1 id="container">Contact</h1>
+      <form id="contactForm">
+        <label for="fname">Nama</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Nama Kamu..."
+        />
+
+        <label for="lname">Email</label>
+        <input
+          type="email"
+          id="lname"
+          name="lastname"
+          placeholder="Email Kamu.."
+        />
+
+        <label for="subject">Pesan</label>
+        <textarea
+          id="subject"
+          name="subject"
+          placeholder="Tulis Sesuatu.."
+          style="height: 200px"
+        ></textarea>
+
+        <input type="submit" value="Kirim" />
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
